@@ -6,4 +6,7 @@ public class MyLinkedListStack<E> {
     public MyLinkedListStack() {
         list = new LinkedList<>();
     }
+    public void push(E element) {
+        list.addFirst(element);
+    }
 }
