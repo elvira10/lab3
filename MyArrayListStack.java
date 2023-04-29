@@ -5,4 +5,7 @@ public class MyArrayListStack<E> {
     public MyArrayListStack() {
         list = new ArrayList<>();
     }
+    public void push(E element) {
+        list.add(element);
+    }
 }
