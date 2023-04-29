@@ -9,4 +9,7 @@ public class MyLinkedListStack<E> {
     public void push(E element) {
         list.addFirst(element);
     }
+    public boolean isEmpty() {
+        return list.isEmpty();
+    }
 }
