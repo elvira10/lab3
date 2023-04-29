@@ -24,4 +24,7 @@ public class MyLinkedListStack<E> {
         }
         return list.getFirst();
     }
+    public int size() {
+        return list.size();
+    }
 }
