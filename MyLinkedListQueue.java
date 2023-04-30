@@ -18,4 +18,13 @@ public class MyLinkedListQueue<E> {
         }
         return queueList.removeFirst();
     }
+    public E peek() {
+        if (isEmpty()) {
+            throw new NoSuchElementException();
+        }
+        return queueList.getFirst();
+    }
+    public int size() {
+        return queueList.size();
+    }
 }
