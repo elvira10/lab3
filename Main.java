@@ -34,5 +34,6 @@ public class Main {
         System.out.println(linkedListQueue.isEmpty());
         System.out.println(arrayListQueue.size());
         System.out.println(linkedListQueue.size());
+
     }
 }
