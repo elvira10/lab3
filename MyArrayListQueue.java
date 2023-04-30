@@ -1,7 +1,7 @@
 import java.util.NoSuchElementException;
-import java.util.LinkedList;
+import java.util.ArrayList;
 
 public class MyArrayListQueue<E> {
-    private MyArrayListQueue<E> queueList;
+    private ArrayList<E> queueList;
 
 }

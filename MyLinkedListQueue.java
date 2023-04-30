@@ -1,8 +1,12 @@
 import java.util.NoSuchElementException;
-import java.util.ArrayList;
+import java.util.LinkedList;
+
 public class MyLinkedListQueue<E> {
-    private MyLinkedListQueue<E> queueList;
+    private LinkedList<E> queueList;
     public MyLinkedListQueue() {
-        queueList = new MyLinkedListQueue<E>();
+        queueList = new LinkedList<E>();
+    }
+    public void enqueue(E element) {
+        queueList.addLast(element);
     }
 }
