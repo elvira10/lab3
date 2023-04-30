@@ -9,5 +9,7 @@ public class MyArrayListQueue<E> {
     public void enqueue(E element) {
         queueList.add(element);
     }
-
+    public boolean isEmpty() {
+        return queueList.isEmpty();
+    }
 }
