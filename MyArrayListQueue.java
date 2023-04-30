@@ -12,4 +12,10 @@ public class MyArrayListQueue<E> {
     public boolean isEmpty() {
         return queueList.isEmpty();
     }
+    public E dequeue() {
+        if (isEmpty()) {
+            throw new NoSuchElementException();
+        }
+        return queueList.remove(0);
+    }
 }
