@@ -11,7 +11,6 @@ public class MyArrayListStack<E> {
      * @param element the element to push onto the stack
      */
     public void push(E element) {
-
         list.add(element);
     }
 
@@ -29,7 +28,6 @@ public class MyArrayListStack<E> {
      * @return the size of the stack
      */
     public int size() {
-
         return list.size();
     }
 

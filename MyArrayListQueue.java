@@ -13,6 +13,7 @@ public class MyArrayListQueue<E> {
      * @param element the element that is going to be added
      */
     public void enqueue(E element) {
+
         queueList.add(element);
     }
 
