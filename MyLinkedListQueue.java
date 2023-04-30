@@ -12,4 +12,10 @@ public class MyLinkedListQueue<E> {
     public boolean isEmpty() {
         return queueList.isEmpty();
     }
+    public E dequeue() {
+        if (isEmpty()) {
+            throw new NoSuchElementException();
+        }
+        return queueList.removeFirst();
+    }
 }
